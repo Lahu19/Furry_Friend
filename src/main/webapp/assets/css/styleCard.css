@@ -1,0 +1,115 @@
+/* @charset "UTF-8";
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card_image {
+  max-height: 550px;
+  max-width:600px;
+  margin-top: -24px;
+  
+  
+
+}
+
+.card {
+  background-color: #091014;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  z-index: 1;
+  display: block;
+}
+
+.card_title {
+  font-family: 'Lobster', cursive;
+  font-size: 72px;
+  line-height: 72px;
+  margin-top: -50px;
+  margin-bottom: 24px;
+  text-shadow: black 1px 0 15px;
+  color: white;
+}
+
+.card_text {
+  color: #DDDACB;
+  font-weight: 200;
+  
+}
+
+.card_price {
+  position: relative;
+  top: 10px;
+  right: 16px;
+  text-align: right;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  height: 24px;
+  font-size: 36px;
+  font-weight: 400;
+  text-shadow: black 3px 0px 6px;
+}
+
+#item_fig .card:after {
+  content: "Seasonal";
+  font-family: "Raleway", sans-serif;
+  color: rgba(234, 225, 175, 0.8);
+  font-weight: 600;
+ 
+} */
+.cards_item {
+  list-style: none;
+  display: flex; /* Use flexbox */
+  margin: 10px;
+  width: 600px; /* Adjust width as needed */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.card_image {
+  flex: 1; /* Make the image take half of the container */
+  padding: 10px;
+}
+
+.card_image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card_content {
+  flex: 1; /* Make the content take half of the container */
+  padding: 10px;
+}
+
+.card_price {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.card_title {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.card_text p {
+  margin: 0;
+}

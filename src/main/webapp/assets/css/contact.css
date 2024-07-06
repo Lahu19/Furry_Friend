@@ -1,0 +1,53 @@
+/* Styling for the contact form */
+.contctus {
+  padding: 20px;
+  background-color: #f7f7f7;
+  font-size: large;
+}
+
+.contctus form {
+  max-width: 800px;
+  height: 500px ;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contctus label {
+  font-weight: bold;
+  font-size: large;
+}
+
+.contctus .form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.contctus .form-text {
+  color: #666;
+}
+
+.contctus .form-check-label {
+  margin-left: 5px;
+}
+
+.contctus .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.contctus .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 500px) {
+  .contctus form {
+    max-width: 100%;
+  }
+}

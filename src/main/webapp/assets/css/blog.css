@@ -1,0 +1,49 @@
+.card_block{
+    display: flex;
+    transform: rotate();
+}
+
+.blog-card {
+    width: 500px;
+    max-height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Style for the blog card content */
+.blog-card-content {
+    padding: 15px;
+}
+
+/* Style for the blog card title */
+.blog-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Style for the blog card description */
+.blog-card-description {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Style for the read more button */
+.read-more {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Hover effect for the read more button */
+.read-more:hover {
+    background-color: #0056b3;
+}
